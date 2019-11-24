@@ -1,2 +1,2 @@
 # C
-Este repositorio contiene programas y algoritmos en c y c++
+Este repositorio contiene programas y algoritmos en c++
