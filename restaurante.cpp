@@ -49,24 +49,22 @@ void Llenar ()
 	
 	/*
 	comparamos precios y le sumamos al total
-	las lineas comentadas de abajo causan un error, basicamente 
-	es hacer la multiplicacion por el total pero se aloca.
 	*/
 	
 	for(int i = 0; i<3; i++){
 		if(strcmp(Comida[i], "tacos") == 0){
 			Total = Total + (10*cantidad[i]);
-			//
+			
 		}
 		
 		if(strcmp(Comida[i],"torta") == 0){
 			Total = Total + (30*cantidad[i]);
-			//Total = Total * cantidad[i];
+			
 		}
 		
 		if(strcmp(Comida[i],"pina") == 0){
 			Total = Total + (5*cantidad[i]);
-			//Total = Total * cantidad[i];
+			
 		}
 		
 		
